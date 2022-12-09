@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+// BUTTON
+.button-container{
+    margin-top: 2rem;
+    padding-bottom: 400px;
+}
+.button{
+    padding: 0.8rem 2rem;
+    margin-right: 20px;
+    background-color: #cc1a26;
+    color: #ffffff;
+    font-weight: bold;
+}
+.main-button-adjustments{
+    text-align: center;
+    padding: 3rem 0;
+}
+// JUMBOTRON
+.jumbotron-adjustments{
+    padding-top: 250px;
+}
+.jumbotron-container{
+    width: 100%;
+    text-align: center;
+}
+.jumbotron-first-text{
+    font-size: 6.5rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.jumbotron-second-text{
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+$color-cube-1: #ffffff;
+$color-cube-2: #020201;
+$color-cube-3: #cc1a26;
+$color-cube-4: #e4862a;
+$color-cube-5: #6b4328;
+$color-cube-6: #bdbdbd;
+$color-cube-7: #917979;
+$color-cube-8: #0d4f5c;
+$color-cube-9: #fcd66c;
+$color-cube-10: #42a3ef;
+$median-cut-1: #d49f7f;
+$median-cut-2: #231712;
+$median-cut-3: #8a4630;
+$median-cut-4: #8f9894;
+$median-cut-5: #5e7b95;
+$material-design-1: #be855f;
+$material-design-2: #5d7a95;
+$material-design-3: #bf1e23;
+$material-design-4: #555454;
+$material-design-5: #cead8c;
